@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
     selector: 'my-app',
     template: `
         <div>
-            <h1>Hello World.</h1>
-            <my-remote></my-remote>
+            <h1>To do List</h1>
+            <to-do-list></to-do-list>
         </div>
     `
 })

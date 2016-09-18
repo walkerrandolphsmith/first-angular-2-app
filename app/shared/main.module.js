@@ -1,13 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './components/AppComponent';
-import { RemoteComponent } from './components/RemoteComponent';
+import { TodoListComponent } from './components/TodoListComponent';
 
 @NgModule({
     bootstrap: [AppComponent],
     declarations: [
         AppComponent,
-        RemoteComponent
+        TodoListComponent
     ],
     imports: [
         BrowserModule
